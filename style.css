@@ -1,0 +1,174 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Itim', cursive;
+    
+}
+.navbar{
+    display: flex;
+    background-color: rgb(20, 20, 20);
+
+}
+
+.navbar a{
+    padding: 17px;
+    color: coral;
+    
+    transition: all 0.5s;
+}
+.navbar a:hover{
+    background-color: coral;
+    color: white;
+}
+
+.wrap1{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    color: white;
+    background-color: rgb(20, 20, 20);
+    background-size: cover;
+    background-position: center;
+}
+.intro{
+    margin: 30px;
+}
+#h1-intro{
+    letter-spacing: 9px;
+    line-height: 50px;
+}
+#p-intro{
+    background-color: coral;
+    text-align: center;
+    width:54%;
+}
+#p2{
+    color:white;
+}
+#wrap-image{
+    background-image: url("damzz.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+}
+
+#my-projects{
+    transform: translateX();
+    background-color: black;
+    color: white;
+
+}
+#my-projects h2{
+    width:190px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    font-size: 30px;
+    margin-left: 40%;
+    text-align: center;
+    background-color: black;
+
+}
+#my-projects h3,p {
+
+    color :white;
+} 
+span{
+    color: coral;
+}
+.wrapper{
+    
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+.project img {
+    
+    width: 300px;
+    height: 300px;
+    transition: all 0.7s;
+    
+}
+.project img:hover{
+    transform: scale(0.9);
+} 
+.project button{
+    padding: 3px 14px;
+    margin-bottom:  20px;
+    margin-top:10px;
+    border: 1px solid;
+    border-radius: 20px;
+    cursor: pointer;
+    background: transparent;
+    color: coral;
+    transition: all .3s;
+    
+}
+.project button:hover{
+    
+    color:white;
+}   
+footer{
+    background-color:rgb(26, 25, 25);
+    height: 200px;
+    
+}
+footer p{
+    padding-top: 20px;
+    color:white;
+    text-align: center;
+    
+}
+.footer-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer img{
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    transition: all .7s;
+}
+footer img:hover{
+    transform: scale(1.4);
+}
+
+footer a{
+    padding: 10px;
+}
+@media all and (max-width:700px) {
+    #wrap-image{
+        display: none;
+    }
+    .wrap1{
+        width: 100%;
+        display:grid;
+        grid-template-columns: 100%;
+    }
+    .intro h2, p{
+        width: 100%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
