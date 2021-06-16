@@ -91,7 +91,7 @@ body{
   height:70% ;
   background: linear-gradient(70deg,transparent 0%,white 5%,white 100%);
   z-index:1;
- animation: animate 2.5s linear forwards infinite;
+ animation: animate 2.5s linear forwards ;
 }
   @keyframes animate
   {
