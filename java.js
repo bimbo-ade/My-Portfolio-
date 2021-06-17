@@ -13,10 +13,11 @@ const foot = document.querySelector('.cont')
 
 menubar.addEventListener('click', function () {
   img.classList.toggle('nav');
+  // body.style. 
 
 });
 
 window.addEventListener('DOMContentLoaded', function () {
-  // wrap1.style.display = "block"
-
+  //wrap1.style.display = "block"
+  //location.reload();
 })
