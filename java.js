@@ -17,7 +17,17 @@ menubar.addEventListener('click', function () {
 
 });
 
-window.addEventListener('DOMContentLoaded', function () {
+//const link = document.querySelectorAll('.link');
+//link.forEach(function (links) {
+ // links.addEventListener('click', function () {
+   // img.style.height = 0;
+
+
+  //})
+//})
+
+
+//window.addEventListener('DOMContentLoaded', function () {
   //wrap1.style.display = "block"
   //location.reload();
-})
+//})
