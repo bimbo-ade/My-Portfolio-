@@ -10,14 +10,9 @@ menubar.addEventListener("click", function () {
 });
 
 home.addEventListener("click", checkNav);
-//project.addEventListener("click", checkNav);
-//contact.addEventListener("click", checkNav);
+project.addEventListener("click", checkNav);
+contact.addEventListener("click", checkNav);
 
-function remNav() {
-  nav.classList.remove("nav");
-}
 function checkNav() {
-  if (nav.classList.remove("nav")) {
-    remNav;
-  }
+  nav.classList.remove("nav");
 }
