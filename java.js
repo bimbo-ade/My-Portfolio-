@@ -10,8 +10,8 @@ menubar.addEventListener("click", function () {
 });
 
 home.addEventListener("click", checkNav);
-project.addEventListener("click", checkNav);
-contact.addEventListener("click", checkNav);
+//project.addEventListener("click", checkNav);
+//contact.addEventListener("click", checkNav);
 
 function remNav() {
   nav.classList.remove("nav");
