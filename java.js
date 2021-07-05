@@ -1,33 +1,23 @@
-const menubar = document.getElementById('menubar');
-const img = document.querySelector('.navbar');
-const intro = document.querySelector('.intro');
-const home = document.querySelector('.home');
-const contact = document.querySelector('.contact');
+const menubar = document.getElementById("menubar");
+const nav = document.querySelector(".navbar");
+const cont = document.querySelector(".container");
+const home = document.getElementById("wrap");
+const project = document.getElementById("my-projects");
+const contact = document.getElementById("contact");
 
-const proj = document.querySelector('.proj');
-const projDiv = document.querySelector('.my-projects')
-
-const wrap1 = document.querySelector('.wrap1')
-const foot = document.querySelector('.cont')
-
-
-menubar.addEventListener('click', function () {
-  img.classList.toggle('nav');
-  // body.style. 
-
+menubar.addEventListener("click", function () {
+  nav.classList.toggle("nav");
 });
 
-//const link = document.querySelectorAll('.link');
-//link.forEach(function (links) {
- // links.addEventListener('click', function () {
-   // img.style.height = 0;
+home.addEventListener("click", checkNav);
+project.addEventListener("click", checkNav);
+contact.addEventListener("click", checkNav);
 
-
-  //})
-//})
-
-
-//window.addEventListener('DOMContentLoaded', function () {
-  //wrap1.style.display = "block"
-  //location.reload();
-//})
+function remNav() {
+  nav.classList.remove("nav");
+}
+function checkNav() {
+  if (nav.classList.remove("nav")) {
+    remNav;
+  }
+}

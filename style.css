@@ -7,11 +7,6 @@
 }
 body {
   background-color: white;
-
-  scroll-behavior: smooth;
-}
-.container {
-  overflow: hidden;
 }
 .navbar {
   display: none;
